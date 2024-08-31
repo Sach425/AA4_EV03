@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Ajusta la fuente si es necesario */
+}
+
+a {
+    color: white; /* Asegúrate de que los enlaces también sean blancos */
+}
+/* Estilos específicos para el texto dentro de la tarjeta */
+.card h5 {
+    color: black; /* Cambia el color del texto a negro */
+}
+
+.padre {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.cajatexto {
+    background-color: rgb(197, 196, 196);
+    border-color: rgb(145, 0, 0);
+    border-radius: 30px;
+    width: 100%;
+    padding: 15px;
+    border-width: 0px;
+    margin-bottom: 20px;
+}
+.cajatexto.focus {
+    outline: 1px solid rgb(110, 22, 0);
+    box-shadow: 0 0 10px rgb(110, 22, 0);
+}
+.btnform{
+    background-color: rgb(145, 0, 0);
+    border-color: rgb(145, 0, 0);
+    border-radius: 30px;
+    width: 100%;
+    padding: 15px;
+    border-width: 0px;
+    margin-bottom: 20px;
+    color: white;
+}
+.btnout{
+    background-color: rgb(145, 0, 0);
+    border-color: rgb(145, 0, 0);
+    border-radius: 30px;
+    width: 10%;
+    padding: 15px;
+    border-width: 0px;
+    margin-bottom: 20px;
+    color: white;
+}
+.col-md-8 {
+    position: relative; /* Necesario para posicionar la imagen en relación con este contenedor */
+    padding: 20px; /* Opcional: Agrega padding para que el contenido no esté pegado a los bordes */
+    height: 100%; /* Asegúrate de que el contenedor tenga suficiente altura */
+}
+
+.tamaño-imagen {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.texto-inferior {
+    margin-bottom: 160px; /* Asegura que haya espacio para la imagen en la parte inferior */
+}
+
+.texto-inferior p {
+    margin: 0; /* Elimina el margen predeterminado de los párrafos */
+    padding: 0; /* Elimina el padding predeterminado de los párrafos */
+}

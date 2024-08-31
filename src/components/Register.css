@@ -1,0 +1,96 @@
+.register-container {
+    display: flex;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    font-family: Arial, sans-serif; /* Define una fuente para todo el texto */
+    color: #000; /* Establece el color del texto a negro */
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+    overflow-y: auto; /* Permite el desplazamiento vertical si hay muchos usuarios */
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    color: #000; /* Asegura que el título en el sidebar sea negro */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #000; /* Asegura que los elementos de la lista sean negros */
+}
+
+.content {
+    flex: 2;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+h1 {
+    color: #000; /* Asegura que el título principal sea negro */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #000; /* Asegura que las etiquetas de los campos sean negras */
+}
+
+.required {
+    color: red; /* El asterisco de campo requerido sigue siendo rojo */
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.btnout {
+    background-color: rgb(145, 0, 0);
+    border-color: rgb(145, 0, 0);
+    color: white;
+}
+
+.btnout:hover {
+    background-color: rgb(110, 22, 0);
+}
